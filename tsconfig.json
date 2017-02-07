@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "outDir": "./dist",
+        "target": "es6",
+        "paths": {
+            "core/*": ["src/core/*"],
+            "ecomm/*": ["src/other/*"]
+        }
+    }
+}
